@@ -1,9 +1,9 @@
 # Alternate site name
-alternate: Yume Shoka
+alternate: StudentWang's Soul Grocery Shop
 
 open_graph:
   #twitter_id:
-  #google_plus:
+  google_plus: wg.wang1999@gmail.com
   #fb_admins:
   #fb_app_id:
 
@@ -23,7 +23,7 @@ favicon:
 # Dark Mode
 # By default, the page judges whether to turn on the dark mode according to the device settings or user selection
 # if `true`, the page will be displayed directly as Dark Mode, unless the user makes another choice
-darkmode: false
+darkmode: true
 
 # By default the page will automatically scroll to the last viewed position
 # if `false`, automatic positioning will be turned off
@@ -141,12 +141,12 @@ footer:
     # Change the color of icon, using Hex Code.
     color: "#ffc0cb"
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-  count: false
+  count: true
   powered: true
 
 post:
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-  count: false
+  count: true
 
 # Reward (Donate)
 reward:
@@ -184,8 +184,8 @@ creative_commons:
 # Valine
 # For more information: https://github.com/amehime/MiniValine
 valine:
-  appId: #Your_appId
-  appKey: #Your_appkey
+  appId: 4ZXOc1MOfS5oPCGmkGr8jYEa-gzGzoHsz
+  appKey: jwQx2DW1tMQSPECGUR68vpgs
   placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
   avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
   pageSize: 10 # Pagination size
@@ -198,7 +198,7 @@ valine:
     visitor: 新朋友
     master: 主人
     friend: 小伙伴
-    investor: 金主粑粑
+    investor: 受邀者
   tagColor:
     master: "var(--color-orange)"
     friend: "var(--color-aqua)"

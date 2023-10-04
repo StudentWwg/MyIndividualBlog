@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'StudentWang的杂货店'
-subtitle: ''
-description: ''
+title: '和光同尘'
+subtitle: '心灵杂货店'
+description: '本博客收录了StudentWang的个人生活感悟、读书笔记和计算机专业知识'
 keywords: 'IT,生活经历,读书笔记'
 author: StudentWang
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://studentwang-blog.site
+root: /
 permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
@@ -73,6 +74,19 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  生活经历: life-thoughts
+  计算机科学: computer-science
+  读书笔记: reading-notes
+  Java: java
+  C++: cpp
+  设计模式: design-pattern
+  软件工程: software-engineering
+  人工智能: artificial-intelligence
+  深度学习: deep-learning
+  机器学习: machine-learning
+  数据结构: data-structure
+  操作系统: operating-system
+  计算机网络: computer-networking
 tag_map:
 
 # Metadata elements
@@ -170,18 +184,20 @@ autoprefixer:
 
 algolia:
   appId: PPT1P769J5
-  apiKey: e542726200b05b885ad3195d2d6fd328
+  apiKey: d82121acc3a580e91c74e01d424a78b0
   adminApiKey: 4df04bb55847c4a139db7a01449d5640
   chunkSize: 5000
   indexName: "wwg_search_operation"
-  # fields:
-  #  - title: search
-  #  - path #必须配置
-  #  - categories #推荐配置
-  #  - content:strip:truncate,0,2000
-  #  - gallery
-  #  - photos
-  #  - tags
+  #fields:
+  #- title: search
+  #- path #必须配置
+  #- categories #推荐配置
+  #- content:strip:truncate,0,2000
+  #- gallery
+  #- photos
+  #- tags
+  #plugins:  
+  #- hexo-algoliasearch
 
 feed:
     limit: 20
